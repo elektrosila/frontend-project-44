@@ -1,6 +1,7 @@
+#!/usr/bin/env node
 import { playGame, getRandomNumber } from '../src/gneg.js';
 
-const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
+const pravilo = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const isEven = (num) => num % 2 === 0;
 
@@ -11,7 +12,7 @@ const generateRound = () => {
 };
 
 const startBrainEven = () => {
-  playGame(rules, generateRound);
+  playGame(pravilo, generateRound);
 };
 
 startBrainEven();
