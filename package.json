@@ -11,8 +11,11 @@
   "type": "module",
   "bin": {
     "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/brain-even.js",
-    "brain-calc": "bin/brain-calc.js"
+    "brain-even": "bin/runBrain-even.js",
+    "brain-calc": "bin/runBrain-calc.js",
+    "brain-gcd": "bin/runBrain-gcd.js",
+    "brain-progression": "bin/runBrain-progression.js",
+    "brain-prime": "bin/runBrain-prime.js"
   },
   "dependencies": {
     "eslint": "^8.57.0",
